@@ -1,0 +1,9 @@
+.DS_Store
+*.bak
+__pycache__/
+results/
+results_from_kelvin/
+work/
+logs/
+store/
+env.sh
