@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color:#161923" viewBox="0 0 790 150" role="img" aria-label="Stacked bar of wall-clock time across the pipeline: diffusion takes 91 percent of about twelve hours, ESMFold 6 percent, ProteinMPNN 2 percent, and everything else under one percent."><rect x="0" y="0" width="790" height="150" fill="#ffffff"/>
+        <rect x="50" y="34" width="546" height="40" fill="currentColor" opacity=".85"/>
+        <rect x="596" y="34" width="37" height="40" fill="currentColor" opacity=".45"/>
+        <rect x="633" y="34" width="13" height="40" fill="currentColor" opacity=".3"/>
+        <rect x="646" y="34" width="4" height="40" fill="currentColor" opacity=".18"/>
+        <rect x="50" y="34" width="600" height="40" fill="none" stroke="currentColor" stroke-opacity=".4"/>
+
+        <text x="323" y="59" font-family="IBM Plex Sans, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">diffuse · 10–12 h · 91%</text>
+
+        <g font-family="IBM Plex Mono, monospace" font-size="10.5" fill="currentColor" opacity=".7">
+          <line x1="614" y1="78" x2="614" y2="92" stroke="currentColor" stroke-opacity=".4"/>
+          <text x="614" y="106" text-anchor="middle">fold</text>
+          <text x="614" y="120" text-anchor="middle" opacity=".7">45 m</text>
+          <line x1="648" y1="78" x2="672" y2="96" stroke="currentColor" stroke-opacity=".4"/>
+          <text x="676" y="106">mpnn 15 m</text>
+          <text x="676" y="120" opacity=".7">score 5 m</text>
+        </g>
+        <text x="50" y="24" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="currentColor" opacity=".6" letter-spacing="1">WALL CLOCK, ONE V100, FULL RUN</text>
+        <text x="50" y="142" font-family="IBM Plex Sans, sans-serif" font-size="11.5" fill="currentColor" opacity=".6">prepare (15 s) and submit (1 s) are too small to draw</text>
+      </svg>

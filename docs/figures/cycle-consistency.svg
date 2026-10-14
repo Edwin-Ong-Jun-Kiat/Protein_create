@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color:#161923" viewBox="0 0 700 248" role="img" aria-label="Cycle consistency loop: a diffused backbone goes through ProteinMPNN to a sequence, then through ESMFold to a predicted structure, which is compared back to the original backbone by RMSD."><rect x="0" y="0" width="700" height="248" fill="#ffffff"/>
+        <defs>
+          <marker id="ar3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+          </marker>
+        </defs>
+        <rect x="20" y="58" width="140" height="58" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+        <rect x="280" y="58" width="120" height="58" rx="3" fill="none" stroke="currentColor" stroke-opacity=".45"/>
+        <rect x="520" y="58" width="160" height="58" rx="3" fill="none" stroke="currentColor" stroke-opacity=".45"/>
+
+        <g font-family="IBM Plex Sans, sans-serif" font-size="13.5" fill="currentColor" text-anchor="middle" font-weight="600">
+          <text x="90" y="84">diffused</text><text x="90" y="101">backbone</text>
+          <text x="340" y="93">sequence</text>
+          <text x="600" y="84">predicted</text><text x="600" y="101">structure</text>
+        </g>
+
+        <line x1="163" y1="87" x2="273" y2="87" stroke="currentColor" stroke-width="1.2" marker-end="url(#ar3)"/>
+        <line x1="403" y1="87" x2="513" y2="87" stroke="currentColor" stroke-width="1.2" marker-end="url(#ar3)"/>
+
+        <g font-family="IBM Plex Sans, sans-serif" font-size="12" fill="currentColor" text-anchor="middle">
+          <text x="218" y="46" font-weight="500">ProteinMPNN</text>
+          <text x="463" y="46" font-weight="500">ESMFold</text>
+        </g>
+        <g font-family="IBM Plex Mono, monospace" font-size="10.5" fill="currentColor" opacity=".6" text-anchor="middle">
+          <text x="218" y="30">p(seq | struct)</text>
+          <text x="463" y="30">p(struct | seq)</text>
+        </g>
+
+        <path d="M 600 119 C 600 196, 90 196, 90 119" fill="none" stroke="#b8432c" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ar3)" color="#b8432c"/>
+        <text x="345" y="186" font-family="IBM Plex Sans, sans-serif" font-size="12.5" fill="#b8432c" text-anchor="middle" font-weight="600">RMSD — did the round trip return?</text>
+        <text x="345" y="221" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="currentColor" opacity=".65" text-anchor="middle">keep if RMSD &lt; 2 Å and mean pLDDT &gt; 80; the laptop pipeline could not run this at all</text>
+      </svg>

@@ -7,3 +7,13 @@ work/
 logs/
 store/
 env.sh
+
+# Vendored tool checkouts and model weights -- rebuilt by setup_env.sh / install_env.sh.
+# chal_2_local/third_party alone is 95 MB of ProteinMPNN .pt files.
+third_party/
+hf_cache/
+*.pt
+
+# Generated renders of README.md -- regenerate with pandoc rather than committing,
+# so they cannot drift away from the markdown they came from.
+README.html

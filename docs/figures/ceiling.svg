@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color:#161923" viewBox="0 0 700 352" role="img" aria-label="Line chart of achievable pH selectivity S against the number of interface histidines, from one to four. Challenge 1 reaches its target of 1.5 with three histidines; challenge 2, with a lower per-histidine ceiling, needs four to reach its target of 2.0."><rect x="0" y="0" width="700" height="352" fill="#ffffff"/>
+        <g stroke="currentColor" stroke-opacity=".16">
+          <line x1="70" y1="40" x2="620" y2="40"/>
+          <line x1="70" y1="92" x2="620" y2="92"/>
+          <line x1="70" y1="144" x2="620" y2="144"/>
+          <line x1="70" y1="196" x2="620" y2="196"/>
+          <line x1="70" y1="248" x2="620" y2="248"/>
+        </g>
+        <line x1="70" y1="300" x2="620" y2="300" stroke="currentColor" stroke-opacity=".55"/>
+        <line x1="70" y1="40" x2="70" y2="300" stroke="currentColor" stroke-opacity=".55"/>
+
+        <g font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity=".65" text-anchor="end">
+          <text x="60" y="304">0</text>
+          <text x="60" y="252">0.5</text>
+          <text x="60" y="200">1.0</text>
+          <text x="60" y="148">1.5</text>
+          <text x="60" y="96">2.0</text>
+          <text x="60" y="44">2.5</text>
+        </g>
+        <g font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity=".65" text-anchor="middle">
+          <text x="70" y="320">0</text>
+          <text x="207" y="320">1</text>
+          <text x="345" y="320">2</text>
+          <text x="482" y="320">3</text>
+          <text x="620" y="320">4</text>
+        </g>
+        <text x="345" y="342" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="currentColor" opacity=".7" text-anchor="middle">interface histidines, each paired with the right partner</text>
+        <text x="22" y="170" font-family="IBM Plex Sans, sans-serif" font-size="12" fill="currentColor" opacity=".7" text-anchor="middle" transform="rotate(-90 22 170)">selectivity S (log₁₀ Kd ratio)</text>
+
+        <line x1="70" y1="144" x2="620" y2="144" stroke="#b8432c" stroke-dasharray="4 4" stroke-opacity=".8"/>
+        <text x="76" y="138" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#b8432c">C1 target S=1.5</text>
+        <line x1="70" y1="92" x2="620" y2="92" stroke="#1d6b86" stroke-dasharray="4 4" stroke-opacity=".8"/>
+        <text x="76" y="86" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#1d6b86">C2 target S=2.0</text>
+
+        <polyline points="70,300 207,239 345,178 482,117 620,57" fill="none" stroke="#b8432c" stroke-width="2.2"/>
+        <g fill="#b8432c">
+          <circle cx="207" cy="239" r="4"/><circle cx="345" cy="178" r="4"/>
+          <circle cx="482" cy="117" r="4"/><circle cx="620" cy="57" r="4"/>
+        </g>
+        <polyline points="70,300 207,248 345,195 482,143 620,90" fill="none" stroke="#1d6b86" stroke-width="2.2"/>
+        <g fill="#1d6b86">
+          <circle cx="207" cy="248" r="4"/><circle cx="345" cy="195" r="4"/>
+          <circle cx="482" cy="143" r="4"/><circle cx="620" cy="90" r="4"/>
+        </g>
+
+        <text x="200" y="60" font-family="IBM Plex Sans, sans-serif" font-size="12.5" fill="#b8432c" font-weight="600">challenge 01 — 0.59 per His</text>
+        <text x="200" y="78" font-family="IBM Plex Sans, sans-serif" font-size="12.5" fill="#1d6b86" font-weight="600">challenge 02 — 0.50 per His (ceiling)</text>
+
+        <circle cx="482" cy="117" r="9" fill="none" stroke="#b8432c" stroke-width="1.2"/>
+        <circle cx="620" cy="90" r="9" fill="none" stroke="#1d6b86" stroke-width="1.2"/>
+      </svg>
