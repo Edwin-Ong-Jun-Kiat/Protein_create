@@ -1,0 +1,720 @@
+{
+  "template": "11QC",
+  "chains": [
+    "A",
+    "B"
+  ],
+  "design_chain": "A",
+  "offset": 0,
+  "apical_domain": [
+    189,
+    383
+  ],
+  "transferrin_site": [
+    619,
+    670
+  ],
+  "sites": {
+    "k382": {
+      "key": "k382",
+      "role": "tri-objective core: switch + mouse + functional epitope",
+      "evidence": "5/11 members in the 9GH7 bicyclic-peptide footprint",
+      "centre_residue": 382,
+      "radius": 11.0,
+      "centroid": [
+        106.26,
+        150.21,
+        120.7
+      ],
+      "members": [
+        156,
+        158,
+        187,
+        189,
+        193,
+        194,
+        380,
+        381,
+        382,
+        383,
+        385
+      ],
+      "n_members": 11,
+      "conservation_pct": 72.7,
+      "area_A2": 827.0,
+      "hotspots": [
+        382,
+        193,
+        189,
+        381,
+        158,
+        380
+      ],
+      "avoid_burying": [
+        187,
+        194,
+        385
+      ],
+      "mouse_deleted": [],
+      "forbidden_contacts": [],
+      "allow_forbidden": false,
+      "switch_cations": [
+        189,
+        193,
+        382
+      ],
+      "switch_acids": [
+        156,
+        194,
+        383
+      ],
+      "apical": true,
+      "dist_to_transferrin_A": 43.9,
+      "residues": [
+        {
+          "pos": 156,
+          "human": "E",
+          "mouse": "E",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.33,
+          "dist_to_centre": 10.4,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 158,
+          "human": "G",
+          "mouse": "G",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.354,
+          "dist_to_centre": 9.26,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 187,
+          "human": "F",
+          "mouse": "Y",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.281,
+          "dist_to_centre": 10.83,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 189,
+          "human": "K",
+          "mouse": "K",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.329,
+          "dist_to_centre": 7.11,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 193,
+          "human": "K",
+          "mouse": "K",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.409,
+          "dist_to_centre": 10.1,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 194,
+          "human": "D",
+          "mouse": "S",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.3,
+          "dist_to_centre": 10.33,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 380,
+          "human": "V",
+          "mouse": "V",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.312,
+          "dist_to_centre": 6.7,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 381,
+          "human": "L",
+          "mouse": "L",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.447,
+          "dist_to_centre": 5.66,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 382,
+          "human": "K",
+          "mouse": "K",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.422,
+          "dist_to_centre": 0.0,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 383,
+          "human": "E",
+          "mouse": "E",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.459,
+          "dist_to_centre": 5.79,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 385,
+          "human": "K",
+          "mouse": "R",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.302,
+          "dist_to_centre": 10.84,
+          "n_footprints": 0,
+          "in_consensus": false
+        }
+      ]
+    },
+    "k240": {
+      "key": "k240",
+      "role": "cross-reactivity hedge",
+      "evidence": "no known ligand; conservation and area only",
+      "centre_residue": 240,
+      "radius": 11.0,
+      "centroid": [
+        110.79,
+        117.68,
+        115.62
+      ],
+      "members": [
+        240,
+        241,
+        244,
+        245,
+        262,
+        266,
+        269,
+        273,
+        274,
+        714
+      ],
+      "n_members": 10,
+      "conservation_pct": 80.0,
+      "area_A2": 966.0,
+      "hotspots": [
+        240,
+        241,
+        273,
+        269,
+        244,
+        714
+      ],
+      "avoid_burying": [
+        245,
+        274
+      ],
+      "mouse_deleted": [],
+      "forbidden_contacts": [],
+      "allow_forbidden": false,
+      "switch_cations": [
+        240,
+        241
+      ],
+      "switch_acids": [
+        244,
+        245,
+        266,
+        714
+      ],
+      "apical": true,
+      "dist_to_transferrin_A": 18.5,
+      "residues": [
+        {
+          "pos": 240,
+          "human": "K",
+          "mouse": "K",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.624,
+          "dist_to_centre": 0.0,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 241,
+          "human": "K",
+          "mouse": "K",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.61,
+          "dist_to_centre": 5.48,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 244,
+          "human": "E",
+          "mouse": "E",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.614,
+          "dist_to_centre": 6.27,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 245,
+          "human": "D",
+          "mouse": "E",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.641,
+          "dist_to_centre": 9.44,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 262,
+          "human": "I",
+          "mouse": "I",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.217,
+          "dist_to_centre": 9.45,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 266,
+          "human": "E",
+          "mouse": "E",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.298,
+          "dist_to_centre": 9.03,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 269,
+          "human": "A",
+          "mouse": "A",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.29,
+          "dist_to_centre": 9.85,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 273,
+          "human": "S",
+          "mouse": "S",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.553,
+          "dist_to_centre": 8.61,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 274,
+          "human": "L",
+          "mouse": "F",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.334,
+          "dist_to_centre": 9.59,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 714,
+          "human": "E",
+          "mouse": "E",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.513,
+          "dist_to_centre": 10.24,
+          "n_footprints": 0,
+          "in_consensus": false
+        }
+      ]
+    },
+    "apical_tip": {
+      "key": "apical_tip",
+      "role": "recommended epitope; criterion 1 and 3 hedges only",
+      "evidence": "11RN VP1u, 3KAS Machupo GP1, 6WRV 3DS18 all contact it",
+      "centre_residue": 210,
+      "radius": 12.0,
+      "centroid": [
+        88.56,
+        133.86,
+        96.35
+      ],
+      "members": [
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        344,
+        370,
+        371,
+        374
+      ],
+      "n_members": 13,
+      "conservation_pct": 38.5,
+      "area_A2": 1109.0,
+      "hotspots": [
+        209,
+        344,
+        374,
+        206,
+        207
+      ],
+      "avoid_burying": [
+        204,
+        205,
+        208,
+        210,
+        211,
+        212,
+        370,
+        371
+      ],
+      "mouse_deleted": [
+        210
+      ],
+      "forbidden_contacts": [],
+      "allow_forbidden": true,
+      "switch_cations": [
+        344,
+        374
+      ],
+      "switch_acids": [],
+      "apical": true,
+      "dist_to_transferrin_A": 60.0,
+      "residues": [
+        {
+          "pos": 204,
+          "human": "D",
+          "mouse": "Q",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.244,
+          "dist_to_centre": 5.77,
+          "n_footprints": 3,
+          "in_consensus": true
+        },
+        {
+          "pos": 205,
+          "human": "K",
+          "mouse": "S",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.563,
+          "dist_to_centre": 10.09,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 206,
+          "human": "N",
+          "mouse": "N",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.658,
+          "dist_to_centre": 10.88,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 207,
+          "human": "G",
+          "mouse": "G",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.433,
+          "dist_to_centre": 8.86,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 208,
+          "human": "R",
+          "mouse": "N",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.553,
+          "dist_to_centre": 6.79,
+          "n_footprints": 2,
+          "in_consensus": true
+        },
+        {
+          "pos": 209,
+          "human": "L",
+          "mouse": "L",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.579,
+          "dist_to_centre": 5.87,
+          "n_footprints": 3,
+          "in_consensus": true
+        },
+        {
+          "pos": 210,
+          "human": "V",
+          "mouse": "-",
+          "conserved": false,
+          "mouse_deleted": true,
+          "rsa": 0.465,
+          "dist_to_centre": 0.0,
+          "n_footprints": 3,
+          "in_consensus": true
+        },
+        {
+          "pos": 211,
+          "human": "Y",
+          "mouse": "D",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.272,
+          "dist_to_centre": 4.91,
+          "n_footprints": 3,
+          "in_consensus": true
+        },
+        {
+          "pos": 212,
+          "human": "L",
+          "mouse": "P",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.363,
+          "dist_to_centre": 8.95,
+          "n_footprints": 3,
+          "in_consensus": true
+        },
+        {
+          "pos": 344,
+          "human": "K",
+          "mouse": "K",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.289,
+          "dist_to_centre": 11.06,
+          "n_footprints": 2,
+          "in_consensus": true
+        },
+        {
+          "pos": 370,
+          "human": "S",
+          "mouse": "N",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.413,
+          "dist_to_centre": 9.81,
+          "n_footprints": 0,
+          "in_consensus": false
+        },
+        {
+          "pos": 371,
+          "human": "K",
+          "mouse": "Q",
+          "conserved": false,
+          "mouse_deleted": false,
+          "rsa": 0.268,
+          "dist_to_centre": 7.36,
+          "n_footprints": 3,
+          "in_consensus": true
+        },
+        {
+          "pos": 374,
+          "human": "K",
+          "mouse": "K",
+          "conserved": true,
+          "mouse_deleted": false,
+          "rsa": 0.282,
+          "dist_to_centre": 10.11,
+          "n_footprints": 0,
+          "in_consensus": false
+        }
+      ]
+    }
+  },
+  "site_order": [
+    "k382",
+    "k240",
+    "apical_tip"
+  ],
+  "primary_site": "k382",
+  "consensus_epitope": [
+    197,
+    201,
+    202,
+    203,
+    204,
+    208,
+    209,
+    210,
+    211,
+    212,
+    215,
+    340,
+    343,
+    344,
+    348,
+    371
+  ],
+  "consensus_evidence": [
+    "11RN_VP1u",
+    "3KAS_GP1",
+    "6WRV_3DS18"
+  ],
+  "consensus_identity_pct": 43.8,
+  "excluded_other_epitope": "9GH7",
+  "global_identity_pct": 78.1,
+  "receptor_histidines": {
+    "186": {
+      "rsa_dimer": 0.0,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 13.9,
+        "k240": 34.2,
+        "apical_tip": 45.9
+      }
+    },
+    "234": {
+      "rsa_dimer": 0.0,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 33.3,
+        "k240": 15.9,
+        "apical_tip": 19.8
+      }
+    },
+    "300": {
+      "rsa_dimer": 0.188,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 13.8,
+        "k240": 20.6,
+        "apical_tip": 31.1
+      }
+    },
+    "302": {
+      "rsa_dimer": 0.045,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 15.1,
+        "k240": 19.2,
+        "apical_tip": 33.7
+      }
+    },
+    "318": {
+      "rsa_dimer": 0.208,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 22.2,
+        "k240": 40.6,
+        "apical_tip": 54.3
+      }
+    },
+    "401": {
+      "rsa_dimer": 0.043,
+      "mouse": "R",
+      "dist_to_site_A": {
+        "k382": 38.6,
+        "k240": 41.4,
+        "apical_tip": 64.9
+      }
+    },
+    "475": {
+      "rsa_dimer": 0.143,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 32.2,
+        "k240": 33.0,
+        "apical_tip": 57.6
+      }
+    },
+    "515": {
+      "rsa_dimer": 0.126,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 44.4,
+        "k240": 36.8,
+        "apical_tip": 54.7
+      }
+    },
+    "603": {
+      "rsa_dimer": 0.212,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 45.0,
+        "k240": 45.4,
+        "apical_tip": 68.1
+      }
+    },
+    "684": {
+      "rsa_dimer": 0.097,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 40.5,
+        "k240": 31.0,
+        "apical_tip": 60.6
+      }
+    },
+    "699": {
+      "rsa_dimer": 0.0,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 32.4,
+        "k240": 21.8,
+        "apical_tip": 50.4
+      }
+    },
+    "707": {
+      "rsa_dimer": 0.127,
+      "mouse": "H",
+      "dist_to_site_A": {
+        "k382": 34.7,
+        "k240": 20.0,
+        "apical_tip": 49.8
+      }
+    }
+  },
+  "receptor_his_note": "no TfR1 histidine is within 10 A of any designed site -- the nearest to the apical tip are H234 (17.0 A, RSA 0.00) and H300 (26.0 A), while H318 is 49.7 A away and faces the DIMER interface (RSA 0.25 assembled vs 0.97 isolated). A cross-interface His-His pair is therefore unavailable, and the pH dependence must come from the binder's own histidines.",
+  "protomer_patch_separation_A": 74.6,
+  "avidity_note": "the two protomers' apical patches are 74.6 A apart, so a <=250 aa single-chain binder cannot bridge them; design for 1:1",
+  "gates": {
+    "offset": 0,
+    "offset_agreement": 1.0,
+    "n_modelled": 639,
+    "exact_matches": 639,
+    "residue_142": "G"
+  }
+}

@@ -17,3 +17,4 @@ hf_cache/
 # Generated renders of README.md -- regenerate with pandoc rather than committing,
 # so they cannot drift away from the markdown they came from.
 README.html
+.venv/
